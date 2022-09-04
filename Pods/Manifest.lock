@@ -1,0 +1,31 @@
+PODS:
+  - Masonry (1.1.0)
+  - SDCycleScrollView (1.82):
+    - SDWebImage (>= 5.0.0)
+  - SDWebImage (5.13.0):
+    - SDWebImage/Core (= 5.13.0)
+  - SDWebImage/Core (5.13.0)
+  - YNPageViewController (0.2.6)
+
+DEPENDENCIES:
+  - Masonry
+  - SDCycleScrollView
+  - SDWebImage
+  - YNPageViewController
+
+SPEC REPOS:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - Masonry
+    - SDCycleScrollView
+    - SDWebImage
+    - YNPageViewController
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SDCycleScrollView: a0d74c3384caa72bdfc81470bdbc8c14b3e1fbcf
+  SDWebImage: 0327043dbb9533e75f2eff8445b3df0f2ceca6ac
+  YNPageViewController: 33040d429adf0b415d4449ffeec848d8339934ea
+
+PODFILE CHECKSUM: d16a872e2924f0914804534501267141e0fd464d
+
+COCOAPODS: 1.11.3

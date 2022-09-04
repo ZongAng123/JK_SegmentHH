@@ -1,0 +1,40 @@
+//
+//  PrefixHeader.pch
+//  JK_SegmentHH
+//
+//  Created by 纵昂 on 2022/9/2.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "Masonry.h"
+#import "SDCycleScrollView.h" //轮播图
+#import "UIImageView+WebCache.h" //图片
+
+
+#define kSCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+
+#define kSCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+
+#define RGBA(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:a]
+
+#define random(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)/255.0]
+
+#define randomColor random(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#define RGB_GGCOLOR(r,g,b) [UIColor colorWithRed:(r) / 255.0f green:(g) / 255.0f blue:(b) / 255.0f alpha:(1.0)]
+#define RGBA_GGCOLOR(r,g,b,p) [UIColor colorWithRed:(r) / 255.0f green:(g) / 255.0f blue:(b) / 255.0f alpha:(p)]
+// 形如 RGB_HEX(0xFDFDFD, 1.0f) 的颜色定义
+#define RGB_HEX(rgbValue, a) \
+    [UIColor colorWithRed:((CGFloat)((rgbValue & 0xFF0000) >> 16)) / 255.0 \
+                    green:((CGFloat)((rgbValue & 0xFF00) >> 8)) / 255.0 \
+                     blue:((CGFloat)(rgbValue & 0xFF)) / 255.0 \
+                    alpha:(a)]
+
+
+#endif /* PrefixHeader_pch */

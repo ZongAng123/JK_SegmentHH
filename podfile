@@ -1,0 +1,12 @@
+source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git’
+platform :ios, '10.0'
+
+target 'JK_SegmentHH' do
+  use_frameworks!
+
+pod 'YNPageViewController'
+pod 'Masonry'
+pod 'SDWebImage'
+pod 'SDCycleScrollView'
+
+end
